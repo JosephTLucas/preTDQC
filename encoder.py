@@ -4,8 +4,12 @@ def lucas(data):
     output = 2*data
     return output
 
+def miano(x)
+    out = 2/x
+    return = out
+
 num = int(input("Enter a number: "))
 #Add your function below mine and assign the return value to the variable 'num'
 #We'll create a series of calculations that will be our encoder 
-num = lucas(num)
+num = miano(num)
 print ("Your encoded number is",num)
