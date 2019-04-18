@@ -4,7 +4,7 @@ def lucas(data):
     output = 2*data
     return output
 
-def miano(x)
+def miano(x):
     out = x//2 
     return out
 
