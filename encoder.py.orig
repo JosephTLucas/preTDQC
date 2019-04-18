@@ -1,10 +1,8 @@
-#Create a function with your name.  Below is an example.
-#Your function should accept an integer, modify it, and return the new integer.
 def lucas(data):
     output = 2*data
     return output
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 def miano(x):
     out = x//2 
     return out
@@ -13,22 +11,32 @@ def morgan(data):
     output = data+2
     return output
 
-||||||| merged common ancestors
-
-=======
 def katen(data):
     output = ((data + data) * (data * data))
     return(output)
->>>>>>> 064155f9d9381a9a5d2ee691ac1b1fda8b31fd5f
+
+||||||| merged common ancestors
+=======
+def lekhmus(data):
+    output = 15-data
+    return output
+>>>>>>> 86a5e711a89ea43dde98225c1e3a2c0b9c65c19c
 num = int(input("Enter a number: "))
+<<<<<<< HEAD
 #Add your function below mine and assign the return value to the variable 'num'
 #We'll create a series of calculations that will be our encoder 
 num = miano(num)
+||||||| merged common ancestors
+#Add your function below mine and assign the return value to the variable 'num'
+#We'll create a series of calculations that will be our encoder 
+=======
+>>>>>>> 86a5e711a89ea43dde98225c1e3a2c0b9c65c19c
 num = lucas(num)
 <<<<<<< HEAD
 num = morgan(num)
+num = katen(num)
 ||||||| merged common ancestors
 =======
-num = katen(num)
->>>>>>> 064155f9d9381a9a5d2ee691ac1b1fda8b31fd5f
+num = lekhmus(num)
+>>>>>>> 86a5e711a89ea43dde98225c1e3a2c0b9c65c19c
 print ("Your encoded number is",num)
